@@ -1,9 +1,9 @@
 {
   "expo": {
-    "name": "eod-native",
+    "name": "EOD Calculator",
     "slug": "eod-native",
     "version": "1.0.0",
-    "orientation": "portrait",
+        "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "eodnative",
     "userInterfaceStyle": "automatic",
@@ -19,11 +19,12 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.bedcai.eodnative"
     },
     "web": {
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/icon.png"
     },
     "plugins": [
       "expo-router",
@@ -43,6 +44,12 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "f9055714-e2a1-4759-a40f-e572a18e9ccb"
+      }
     }
   }
 }
